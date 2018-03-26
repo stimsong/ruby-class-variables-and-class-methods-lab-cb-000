@@ -21,9 +21,10 @@ class Song
 
   def self.artists
     @@artists.uniq
-    # unique_artists = []
-    # unique_artists << @@artists.uniq
-    # unique_artists
+  end
+
+  def self.genres
+    @@genres.uniq
   end
 
 end

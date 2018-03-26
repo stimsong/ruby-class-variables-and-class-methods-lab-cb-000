@@ -19,4 +19,8 @@ class Song
     @@count
   end
 
+  def artists
+    unique_artists = []
+  end
+
 end
